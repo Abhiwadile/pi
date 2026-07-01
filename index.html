@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>I'm Sorry Piu ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:'Poppins',sans-serif;
+background:linear-gradient(135deg,#ffd6e8,#ffeef5);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+
+}
+
+.container{
+
+max-width:900px;
+width:100%;
+background:white;
+padding:35px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.15);
+
+}
+
+h1{
+
+font-family:'Great Vibes',cursive;
+font-size:60px;
+text-align:center;
+color:#ff2f74;
+margin-bottom:15px;
+
+}
+
+.intro{
+
+text-align:center;
+font-size:20px;
+margin-bottom:30px;
+
+}
+
+.card p{
+
+margin:18px 0;
+font-size:18px;
+line-height:1.8;
+
+}
+
+.highlight{
+
+text-align:center;
+font-size:30px;
+font-weight:bold;
+color:#ff2f74;
+
+}
+
+.quotes{
+
+margin-top:40px;
+
+}
+
+.quotes h2{
+
+text-align:center;
+margin-bottom:20px;
+color:#ff2f74;
+
+}
+
+.quotes p{
+
+background:#fff1f6;
+padding:15px;
+border-left:5px solid #ff2f74;
+border-radius:10px;
+margin-bottom:15px;
+
+}
+
+.messageBox{
+
+margin-top:40px;
+
+}
+
+.messageBox h2{
+
+text-align:center;
+margin-bottom:20px;
+color:#ff2f74;
+
+}
+
+textarea{
+
+width:100%;
+height:170px;
+padding:15px;
+font-size:17px;
+border-radius:15px;
+border:2px solid pink;
+outline:none;
+resize:none;
+
+}
+
+button{
+
+margin-top:20px;
+width:100%;
+padding:15px;
+font-size:18px;
+background:#ff2f74;
+color:white;
+border:none;
+border-radius:15px;
+cursor:pointer;
+transition:.3s;
+
+}
+
+button:hover{
+
+background:#e91e63;
+
+}
+
+/* Music Button */
+
+#musicBtn{
+
+position:fixed;
+top:20px;
+right:20px;
+width:auto;
+padding:12px 18px;
+border-radius:30px;
+z-index:999;
+box-shadow:0 8px 20px rgba(0,0,0,.25);
+
+}
+
+@media(max-width:600px){
+
+.container{
+
+padding:20px;
+
+}
+
+h1{
+
+font-size:42px;
+
+}
+
+.intro{
+
+font-size:16px;
+
+}
+
+.card p{
+
+font-size:15px;
+
+}
+
+.highlight{
+
+font-size:22px;
+
+}
+
+#musicBtn{
+
+top:10px;
+right:10px;
+font-size:14px;
+padding:10px 14px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- MUSIC -->
+
+<audio id="bgMusic" loop>
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<button id="musicBtn" onclick="toggleMusic()">
+🎵 Play Music
+</button>
+
+<div class="container">
+
+<h1>I'm Sorry Piu ❤️</h1>
+
+<p class="intro">
+I don't know if words are enough, but today I just want to tell you that
+I am truly sorry.
+</p>
+
+<div class="card">
+
+<p>
+Sometimes people hurt the ones they never wanted to hurt.
+I made a mistake, and I regret it every single day.
+</p>
+
+<p>
+I'm not trying to justify what happened.
+I'm simply accepting that I was wrong.
+</p>
+
+<p>
+You deserve respect, honesty, and kindness.
+I'm sorry that I failed to give you that when it mattered.
+</p>
+
+<p>
+I miss talking to you.
+I miss your presence.
+I miss the comfort that came with simply knowing you were there.
+</p>
+
+<p>
+Yess yaar...
+Me tula taken for granted ghetla.
+Me navta pic takayla pahije hota apla.
+Kharach yaar...
+Tu rage nako Bharat jau.
+Khoop kharab vatta.
+</p>
+
+<p>
+Ek tar adhich apla barobar chalu nahiye...
+Tyat hi majhi chuk...
+</p>
+
+<p>
+Tu majhyasathi fakta friend nahiye...
+Pan tyapeksha hi kahi tari khup special ahes.
+</p>
+
+<p class="highlight">
+Piu D... Please 🥺❤️
+</p>
+
+</div>
+
+<div class="quotes">
+
+<h2>❤️ Shayari ❤️</h2>
+
+<p>
+गलती मेरी थी,
+सज़ा भी मुझे ही मिलनी चाहिए।
+</p>
+
+<p>
+बस इतना कर देना...
+</p>
+
+<p>
+अपनी ख़ामोशी से
+मुझे हमेशा के लिए दूर मत कर देना।
+</p>
+
+<p>
+कुछ रिश्तों का कोई नाम नहीं होता,
+फिर भी वो सबसे खास होते हैं।
+</p>
+
+<p>
+अगर हो सके...
+तो मुझे एक मौका और दे देना।
+</p>
+
+</div>
+
+<div class="messageBox">
+
+<h2>Will You Say Something To Me? ❤️</h2>
+
+<textarea id="message" placeholder="Write whatever is in your heart..."></textarea>
+
+<button onclick="sendMessage()">
+Send Me Your Message ❤️
+</button>
+
+</div>
+
+</div>
+
+<script>
+
+const music=document.getElementById("bgMusic");
+const musicBtn=document.getElementById("musicBtn");
+
+function toggleMusic(){
+
+if(music.paused){
+
+music.play();
+
+musicBtn.innerHTML="⏸ Pause Music";
+
+}else{
+
+music.pause();
+
+musicBtn.innerHTML="🎵 Play Music";
+
+}
+
+}
+
+function sendMessage(){
+
+let message=document.getElementById("message").value;
+
+if(message.trim()==""){
+
+alert("Please write something ❤️");
+
+return;
+
+}
+
+let phone="YOUR_PHONE_NUMBER";
+
+let finalMessage="Message from Piu ❤️\n\n"+message;
+
+window.open(
+"https://wa.me/"+phone+"?text="+encodeURIComponent(finalMessage),
+"_blank"
+);
+
+}
+
+</script>
+
+</body>
+</html>

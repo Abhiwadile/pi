@@ -1,0 +1,237 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Great+Vibes&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#ffd6e8,#ffeef5);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    overflow-x:hidden;
+}
+
+.container{
+    width:100%;
+    max-width:900px;
+    background:#fff;
+    border-radius:20px;
+    padding:40px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    animation:fadeIn 1s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+h1{
+    font-family:'Great Vibes',cursive;
+    color:#ff2f74;
+    text-align:center;
+    font-size:64px;
+    margin-bottom:20px;
+}
+
+.intro{
+    text-align:center;
+    font-size:20px;
+    color:#444;
+    margin-bottom:30px;
+}
+
+.card p{
+    font-size:18px;
+    line-height:1.9;
+    margin:18px 0;
+    color:#444;
+}
+
+.highlight{
+    color:#ff2f74;
+    font-size:28px;
+    text-align:center;
+    font-weight:600;
+    margin-top:25px;
+}
+
+.quotes{
+    margin-top:40px;
+}
+
+.quotes h2{
+    text-align:center;
+    color:#ff2f74;
+    margin-bottom:25px;
+}
+
+.quotes p{
+    background:#fff3f8;
+    border-left:5px solid #ff2f74;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    line-height:1.7;
+}
+
+.messageBox{
+    margin-top:45px;
+}
+
+.messageBox h2{
+    text-align:center;
+    color:#ff2f74;
+    margin-bottom:20px;
+}
+
+textarea{
+    width:100%;
+    min-height:170px;
+    border:2px solid #ffc1d6;
+    border-radius:15px;
+    padding:15px;
+    font-size:16px;
+    resize:none;
+    outline:none;
+}
+
+textarea:focus{
+    border-color:#ff2f74;
+}
+
+button{
+    width:100%;
+    margin-top:20px;
+    padding:16px;
+    border:none;
+    border-radius:15px;
+    background:#ff2f74;
+    color:#fff;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    background:#e91e63;
+}
+
+/* Tablet */
+
+@media screen and (max-width:768px){
+
+.container{
+    padding:30px 22px;
+}
+
+h1{
+    font-size:52px;
+}
+
+.intro{
+    font-size:18px;
+}
+
+.card p{
+    font-size:17px;
+}
+
+.highlight{
+    font-size:24px;
+}
+
+}
+
+/* Mobile */
+
+@media screen and (max-width:480px){
+
+body{
+    padding:12px;
+}
+
+.container{
+    padding:20px 16px;
+    border-radius:15px;
+}
+
+h1{
+    font-size:40px;
+    line-height:1.2;
+}
+
+.intro{
+    font-size:16px;
+}
+
+.card p{
+    font-size:15px;
+    line-height:1.8;
+}
+
+.highlight{
+    font-size:20px;
+}
+
+.quotes h2,
+.messageBox h2{
+    font-size:22px;
+}
+
+.quotes p{
+    font-size:14px;
+    padding:12px;
+}
+
+textarea{
+    min-height:140px;
+    font-size:15px;
+}
+
+button{
+    font-size:16px;
+    padding:15px;
+}
+
+}
+
+/* Small Phones */
+
+@media screen and (max-width:360px){
+
+h1{
+    font-size:34px;
+}
+
+.intro{
+    font-size:15px;
+}
+
+.card p{
+    font-size:14px;
+}
+
+.highlight{
+    font-size:18px;
+}
+
+button{
+    font-size:15px;
+}
+
+}
